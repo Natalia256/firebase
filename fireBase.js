@@ -1,4 +1,4 @@
-const fireBase = fireBase || firebase;
+var fireBase = fireBase || firebase;
 const hasInit = false;
 const config = {
   apiKey: "AIzaSyD6d_d49VvLn0FGHUVrQK9cnS-jeLg63RQ",
