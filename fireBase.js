@@ -1,6 +1,6 @@
-var fireBase = fireBase || firebase;
-var hasInit = false;
-var config = {
+const fireBase = fireBase || firebase;
+const hasInit = false;
+const config = {
   apiKey: "AIzaSyD6d_d49VvLn0FGHUVrQK9cnS-jeLg63RQ",
   authDomain: "proba-ad273.firebaseapp.com",
   projectId: "proba-ad273",
