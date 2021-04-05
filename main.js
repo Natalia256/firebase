@@ -2,7 +2,7 @@ const mainApp = {};
 (function(){
 const mainContainer = document.getElementById("main_container");
 
-    var logtout =  function(){
+    const logtout =  function(){
         firebase.auth().signOut().then(function(){
             console.log('success');
             window.location.replace("login.html");
